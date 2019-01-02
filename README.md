@@ -27,3 +27,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+sudo bash -c 'echo 524288 > /proc/sys/fs/inotify/max_user_watches'
